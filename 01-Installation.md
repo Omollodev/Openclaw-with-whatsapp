@@ -16,6 +16,15 @@ npm install -g openclaw@latest \
 openclaw onboard --install-daemon
 ```
 
+![installation](/images/1.png)
+
+    Setups:
+    1.  Locally since I have another machines separate from my main or use a VPS.
+    2.  Use the AI Agent of your own i'll go with deepseek retrive it's API-Key at: 
+**[deepseek](https://platform.deepseek.com/api_keys)**
+
+    3.  
+
 The --install-daemon flag installs the gateway as a background service (launchd on macOS, systemd on Linux). This means the gateway starts automatically on boot and keeps running—you don’t need a terminal open. The onboarding wizard walks you through config path, workspace location, and channel pairing.
 
 See: Install, Onboarding Wizard
